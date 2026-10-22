@@ -1,0 +1,13 @@
+{
+  "puck":  { "mode": "scroll", "speed": 1.0, "deadzone": 25, "invertX": false, "invertY": false },
+  "twist": { "positive": "key:cmd+=", "negative": "key:cmd+-", "threshold": 120, "repeatMs": 250 },
+  "ring":  { "mode": "actions", "positive": "media:voldown", "negative": "media:volup", "step": 150, "scrollSpeed": 1.0 },
+  "buttons": {
+    "1": "key:cmd+z",
+    "2": "key:cmd+shift+z",
+    "3": "key:cmd+c",
+    "4": "key:cmd+v",
+    "5": "key:ctrl+up"
+  },
+  "leds": true
+}

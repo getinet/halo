@@ -26,7 +26,7 @@ Mine sat in a drawer for **about twenty years**.
 
 ### Bringing it back
 
-In 2026 I plugged it into my Mac and asked Claude, an AI coding assistant, whether there was anything we could do. Within one afternoon of back-and-forth we had:
+In 2026 I plugged it into my Mac and asked Claude, whether there was anything we could do. Within one afternoon of back-and-forth we had:
 
 1. **Read the device's own description of itself.** It turns out the NuLOOQ reports everything over standard USB HID: puck X/Y, twist, ring angle, ring touch pressure, five buttons and five LEDs. No secret handshake required.
 2. **Written a small driver** in Swift that listens to those signals and turns them into real actions.
@@ -183,4 +183,4 @@ nulooqd.swift         original command-line driver (now a diagnostic tool)
 
 ---
 
-*Built with love for an old friend, and a lot of help from Claude.*
+*Built with love for an old friend.*
